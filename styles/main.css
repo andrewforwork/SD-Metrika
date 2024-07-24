@@ -115,9 +115,7 @@ h2.about_us_header_h2 {
   color: #121212;
 }
 
-.pravober_link {
-  height: 27px;
-  width: 127px;
+.pravober_btn {
   font-weight: 400;
   font-size: 20px;
   letter-spacing: -0.03em;
