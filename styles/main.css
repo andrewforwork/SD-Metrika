@@ -5,69 +5,78 @@ body {
   background: #f5f5f5;
 }
 
-.main-block-1 {
+main {
   width: 1400px;
   margin: 0 auto;
-  padding: 128px 125px 150px 125px;
+}
 
+section {
+  width: 100%;
   background-color: #ffffff;
 }
 
-.introduction-block {
-  margin-bottom: 150px;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  letter-spacing: -0.03em;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #121212;
+  line-height: 25px;
+}
+
+.introduction-section {
+  padding: 128px 125px 150px 125px;
 }
 
 h1 {
+  margin-bottom: 30px;
   line-height: 60px;
 
   font-weight: 400;
   font-size: 60px;
-  letter-spacing: -0.03em;
 }
 
-.introduction-image {
+.introduction-section__image {
+  position: relative;
   height: 500px;
   width: 1150px;
-
-  margin-top: 30px;
-  padding-top: 379px;
-  padding-left: 40px;
 
   background-image: url("../resources/interior.png");
 }
 
-.introduction-image-text {
+.introduction-section__image-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
   width: 430px;
   line-height: 27px;
 
   font-weight: 400;
   font-size: 20px;
-  letter-spacing: -0.03em;
   color: #ffffff;
 }
 
-.description-block {
-  margin-bottom: 150px;
+.description-section {
+  padding: 0 224px 150px 125px;
 }
 
-.description-block-title {
-  line-height: 25px;
-
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: -0.03em;
-}
-
-.description-block-text {
+.description-section__text {
   margin-top: 30px;
   line-height: 61px;
 
   font-size: 45px;
   font-weight: 400;
-  letter-spacing: -0.03em;
 }
 
-.description-block-btn {
+.description-section__btn {
   display: inline-block;
 
   margin-top: 30px;
@@ -81,12 +90,15 @@ h1 {
   text-decoration: none;
 }
 
-.description-block-btn:hover {
+.description-section__btn:hover {
   cursor: pointer;
   background-color: #ffffff;
   color: #ad1818;
 }
 
+.projects-section {
+  padding: 0 125px 150px 125px;
+}
 .projects-list {
   width: 1150px;
 }
@@ -95,34 +107,27 @@ h1 {
   margin-bottom: 90px;
 }
 
-.projects-list-title {
+.projects-section__title {
   margin-bottom: 30px;
-  line-height: 25px;
-  font-weight: 400;
-  font-size: 18px;
-  letter-spacing: -0.03em;
-  color: #121212;
 }
 
-.project_image {
+.project__image {
   margin-bottom: 15px;
   width: 100%;
   height: 450px;
 }
 
-.project_title {
+.project__title {
   margin-bottom: 15px;
   line-height: 41px;
   font-weight: 400;
   font-size: 30px;
-  letter-spacing: -0.03em;
   color: #121212;
 }
 
-.project_btn {
+.project__btn {
   font-weight: 400;
   font-size: 20px;
-  letter-spacing: -0.03em;
   color: #ad1818;
   text-decoration: none;
 }
@@ -131,7 +136,7 @@ h1 {
   cursor: pointer;
 }
 
-.projects-list-btn {
+.projects-section__btn {
   display: inline-block;
   width: 1150px;
   height: 153px;
@@ -144,21 +149,18 @@ h1 {
   text-decoration: none;
   font-weight: 400;
   font-size: 30px;
-  letter-spacing: -0.03em;
   color: #ad1818;
   background-color: #ffffff;
 }
 
-.projects-list-btn:hover {
+.projects-section__btn:hover {
   cursor: pointer;
   background-color: #ad1818;
   color: #ffffff;
 }
 
-.main-block-2 {
-  margin: 0 auto;
-  width: 1400px;
-  padding: 151px 125px 90px 125px;
+.items-section {
+  padding: 151px 125px 150px 125px;
   background-color: #121212;
 }
 
@@ -166,23 +168,22 @@ h1 {
   margin-bottom: 60px;
 }
 
-.items-list-title {
+.item:last-child {
+  margin-bottom: 0px;
+}
+
+.items-section__title {
   margin-bottom: 34px;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-  letter-spacing: -0.03em;
   color: #fff;
 }
 
-.item_image {
+.item__image {
   margin-bottom: 15px;
 }
 
-.item_title {
+.item__title {
   font-weight: 400;
   font-size: 30px;
-  letter-spacing: -0.03em;
   color: #fff;
   line-height: 41px;
 }
