@@ -13,6 +13,20 @@
 </head>
 
 <body>
+  <header>
+
+    <div class="container container__header">
+      <a class="logo-link" href="/">
+        <img class="logo-link__img" src="resources/metrika-logo.png" alt="Логотип Метрики">
+      </a>
+      <nav class="header-links">
+        <a class="header-link" href="#aboutus">О НАС</a>
+        <a class="header-link" href="#projects">ПРОЕКТЫ</a>
+        <a class="header-link" href="#services">УСЛУГИ</a>
+        <a class="header-link header-link_right" href="#contacts">КОНТАКТЫ</a>
+      </nav>
+    </div>
+  </header>
   <main>
     <section class="introduction-section">
       <div class="container">
@@ -28,7 +42,7 @@
       </div>
     </section>
 
-    <section class="description-section">
+    <section id="aboutus" class="description-section">
       <div class="container">
         <h2 class="description-section__title">О НАС</h2>
         <p class="description-section__text">
@@ -41,7 +55,7 @@
       </div>
     </section>
 
-    <section class="projects-section">
+    <section id="projects" class="projects-section">
       <div class="container">
         <h2 class="projects-section__title">ПРОЕКТЫ</h2>
 
@@ -69,7 +83,7 @@
       </div>
     </section>
 
-    <section class="items-section">
+    <section id="services" class="items-section">
       <div class="container">
         <h2 class="items-section__title">УСЛУГИ</h2>
 
@@ -96,10 +110,34 @@
 
         </ul>
       </div>
+    </section>
 
+    <section class="fullscreen-img-section">
+      <div class="container container_fullscreen">
+        <p class="fullscreen-img-section__text">Проект Двухкомнатной <br /> квартиры в ЖК Лесной Пейзаж</p>
+      </div>
     </section>
 
 
+    <section id="contacts" class="contacts-section">
+      <div class="container container_contacts">
+        <h2 class="contacts-section__title">КОНТАКТЫ</h2>
+        <a class="contacts-section__tel" href="tel:+79358954535">+7 935 895-45-35</a>
+        <a class="contacts-section__mail" href="mailto:hello@mail.com">hello@mail.com</a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container container_footer">
+        <nav class="footer-links">
+          <a class="footer-link" href="#aboutus">О НАС</a>
+          <a class="footer-link" href="#projects">ПРОЕКТЫ</a>
+          <a class="footer-link" href="#services">УСЛУГИ</a>
+          <a class="footer-link" href="#contacts">КОНТАКТЫ</a>
+        </nav>
+        <p class="footer-text">студия дизайна интерьера Метрика — 2023</p>
+      </div>
+    </footer>
   </main>
 </body>
 
