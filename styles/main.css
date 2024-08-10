@@ -263,7 +263,7 @@ section:nth-child(4) {
   min-width: 1400px;
   height: 717px;
   padding-bottom: 0;
-  background-image: url("resources/fullscreen-image.png");
+  background-image: url("/resources/fullscreen-image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
