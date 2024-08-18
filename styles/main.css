@@ -74,7 +74,7 @@ h1 {
   color: #ffffff;
 }
 
-.description-section__text {
+.about__text {
   width: 1040px;
   margin-top: 31.5px;
   margin-left: 3px;
@@ -84,7 +84,7 @@ h1 {
   font-weight: 400;
 }
 
-.description-section__btn {
+.about__btn {
   display: block;
   width: 255px;
   height: 67px;
@@ -104,18 +104,14 @@ h1 {
   line-height: 27px;
 }
 
-.description-section__btn:hover {
+.about__btn:hover {
   cursor: pointer;
   background-color: #ffffff;
   color: #ad1818;
 }
 
-.projects-section {
+.projects {
   padding-bottom: 146.5px;
-}
-
-.projects-list {
-  width: 1150px;
 }
 
 .project:nth-last-child(2) {
@@ -129,7 +125,7 @@ h1 {
   margin-bottom: 90px;
 }
 
-.projects-section__title {
+.projects__title {
   margin-bottom: 30px;
 }
 
@@ -159,7 +155,7 @@ h1 {
   cursor: pointer;
 }
 
-.projects-section__btn {
+.projects__btn {
   display: inline-block;
   width: 100%;
   height: 153px;
@@ -177,7 +173,7 @@ h1 {
   background-color: #ffffff;
 }
 
-.projects-section__btn:hover {
+.projects__btn:hover {
   cursor: pointer;
   background-color: #ad1818;
   color: #ffffff;
@@ -188,29 +184,29 @@ section:nth-child(4) {
   background-color: #121212;
 }
 
-.items-section {
+.services {
   min-width: 1400px;
 }
 
-.item {
+.service {
   margin-bottom: 60px;
 }
 
-.item:last-child {
+.service:last-child {
   margin-bottom: 0px;
 }
 
-.items-section__title {
+.services__title {
   margin-left: 2px;
   margin-bottom: 33px;
   color: #fff;
 }
 
-.item__image {
+.service__image {
   margin-bottom: 13px;
 }
 
-.item__title {
+.service__title {
   margin-left: 4px;
   font-weight: 400;
   font-size: 30px;
@@ -257,7 +253,7 @@ section:nth-child(4) {
   text-underline-offset: 7px;
 }
 
-.fullscreen-img-section {
+.fullscreen-img {
   min-width: 1400px;
   height: 717px;
   padding-bottom: 0;
@@ -272,10 +268,10 @@ section:nth-child(4) {
   height: 717px;
 }
 
-.fullscreen-img-section__text {
+.fullscreen-img__text {
   position: absolute;
-  left: 125px;
-  bottom: 60px;
+  left: 17px;
+  bottom: 63px;
   width: 443px;
   line-height: 40px;
   font-weight: 400;
@@ -283,20 +279,20 @@ section:nth-child(4) {
   color: #fff;
 }
 
-.contacts-section {
+.contacts {
   padding-bottom: 158px;
 }
 .container_contacts {
   padding-top: 186px;
 }
 
-.contacts-section__title {
+.contacts__title {
   position: relative;
   margin-top: 1px;
   margin-bottom: 32px;
 }
 
-.contacts-section__title:before {
+.contacts__title:before {
   position: absolute;
   left: -5px;
   top: -36px;
@@ -310,7 +306,7 @@ section:nth-child(4) {
   background-position: 50%;
 }
 
-.contacts-section__tel {
+.contacts__tel {
   display: block;
   margin-bottom: 30px;
   margin-left: 1px;
@@ -322,7 +318,7 @@ section:nth-child(4) {
   letter-spacing: -0.02em;
 }
 
-.contacts-section__mail {
+.contacts__mail {
   display: block;
   margin-left: 1px;
   font-weight: 400;
